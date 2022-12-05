@@ -83,3 +83,23 @@ var weekoff = WeekendDay.Saturday
 
 print(WeekDay.Monday)
 
+var greetingmsg = "Complex DataTypes = Part2"
+print(greetingmsg)
+
+//type annotation
+//swift is able figure it out data type from assigned value
+
+let surname = "Lasso" //type inferred is string
+
+let name : String = "Surname" //type annotation String ensures the data type is always string
+let albums : [String] = ["Red","Blue","Black","White","Yellow" ,"Fearless","Green","Blue","Black","White","Yellow"]
+var user : [String : String] = ["id":"twostraws"]
+
+var teams : [String] = [String]()
+var cities : [String] = []
+var clues = [String]()
+
+print(albums.count)
+
+let noduplicates = Set(albums)
+print(noduplicates)
